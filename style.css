@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+button,
+a,
+input {
+  font-family: "Montserrat", "Arial";
+}
+
+body {
+  color: #1c1c1c;
+  background-color: #ffffff;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  justify-content: space-between;
+  padding-top: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+}
+.header-container p {
+  max-width: 198px;
+  max-height: 44px;
+
+}
+
+.header-line {
+  width: 1200px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-bottom: 30px;
+  opacity: 1;
+  border-width: 0.5px;
+
+}
+
+.logo img {
+  display: block;
+  max-height: 40px;
+}
+
+.nav-menu {
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  gap: 15px;
+  margin: 0px;
+  margin-left: 117px; 
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-bottom: 5px; 
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  max-width: 155px;
+  max-height: 20px;
+}
+
+.nav-link2 {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 117px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-decoration: underline; 
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.hero {
+  background-image: url("./images/Rectangle 15.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 735px;
+  opacity: 1;
+  margin-bottom: 25px;
+}
+
+.hero-content {
+  max-width: 870px;
+}
+
+.hero-container {
+  padding-top: 64px;
+  padding-bottom: 70px;
+  max-width: 1440px;
+  max-height: 735px; 
+  padding-top: 0
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #FFFFFF;
+  margin-left: 117px;
+  margin-bottom: 25px;
+  margin-top: 70px; 
+  max-width: 792px;
+  font-style: SemiBold;
+  letter-spacing: 0%;
+}
+
+.hero-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-left: 117px;
+  margin-bottom: 25px;
+  max-width: 792px;
+  max-height: 29px;
+  margin-top: 0;
+}
+
+.products {
+  color: #000000;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-height: 909px;
+  margin-left: 120px;
+
+}
+
+.products-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.product-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.card {
+  max-width: 379px;
+}
+
+.card h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  margin-bottom: 12px; 
+  color: #000000;
+  max-width: 219px;
+  max-height: 219px;
+  margin-top: 10px;
+
+}
+
+.card p {
+  color: #888888; 
+  margin-bottom: 14px; 
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.card .price {
+  color: #050505;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  margin-top: 15px;
+}
+
+.card-image {
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  max-width: 379px;
+  max-height: 250px;
+  
+}
+
+.footer {
+  background-color: #F7F6F6;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  max-width: 1440px;
+  max-height: 207;
+}
+
+.footer-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+  line-height: 100%;
+  max-height: 29px;
+}
